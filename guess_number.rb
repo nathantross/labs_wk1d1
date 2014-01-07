@@ -1,5 +1,4 @@
-prng = Random.new
-num_to_guess = prng.rand(99) + 1
+num_to_guess = Random.new.rand(1..100)
 
 # initialize variable and prompt for user input
 user_guess = -1
