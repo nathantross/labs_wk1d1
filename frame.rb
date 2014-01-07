@@ -1,3 +1,5 @@
+# this is a comment from Nathan
+
 puts "enter a phrase to frame: "
 phrase_arr = gets.chomp.split
 puts # create a blank line after input.
